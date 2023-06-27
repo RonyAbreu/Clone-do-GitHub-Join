@@ -1,0 +1,195 @@
+main{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section{
+    max-width: 544px;
+}
+
+/* FORMÚLARIO ====== */
+main section form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section form #join{
+    font-size: .8em;
+    color: rgba(95, 95, 95, 0.934);
+}
+
+main section form #titulo{
+    font-size: 1.8em;
+    margin-bottom: 1.3em;
+    font-weight: 600;
+}
+
+main section form label{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: .3em;
+}
+
+main section form label p{
+    font-size: .8em;
+    font-weight: 600;
+}
+
+main section form label p span{
+    color: rgb(222, 2, 2);
+}
+
+main section form label input{
+    width: 100%;
+    height: 27px;
+    padding: 10px;
+    background-color: #f6f8fa;
+    border: 1px solid #b9b9b9;
+    border-radius: 6px;
+    margin-bottom: 1.4em;
+}
+
+main section form label input:focus{
+    border: 2px solid rgba(34, 34, 249, 0.857);
+}
+
+main section form #password-settings{
+    width: 100%;
+    font-size: 0.75em;
+    margin-top: -1em;
+    color: rgba(95, 95, 95, 0.934);
+    margin-bottom: 1em;
+}
+
+main section form #password-settings a{
+    color: rgba(34, 34, 249, 0.857);
+    text-decoration: none;
+}
+
+main section form #password-settings a:hover{
+    text-decoration: underline;
+}
+
+main section form #email-preferences{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section form div p{
+    font-size: .8em;
+    font-weight: 600;
+    margin-bottom: 1em;
+}
+
+main section form #email-check{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .3em;
+    margin-bottom: 1em;
+}
+
+main section form #email-check span{
+    font-size: .8em;
+    color: rgba(95, 95, 95, 0.934);
+}
+
+/* BOX ====== */
+main section #verify{
+    font-weight: 600;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+main section #box{
+    width: 100%;
+    height: 308px;
+    background-color: #f6f8fa;
+    border: 1px solid #b9b9b9;
+    border-radius: 5px;
+    margin-bottom: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section #box #box-itens{
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main section #box-itens p{
+    width: 60%;
+    text-align: center;
+    font-size: .85em;
+}
+
+main section #box-itens button{
+    width: 85px;
+    height: 35px;
+    margin-top: 2em;
+    color: rgba(34, 34, 249, 0.857);
+    border: 1px solid rgb(189, 189, 189);
+    background: rgb(250, 251, 252);
+    border-radius: 2px;
+    margin-bottom: 1.5em;
+    cursor: pointer;
+}
+
+main section #box #audio{
+    width: 60%;
+    height: 15%;
+    margin-left: 9em;
+    display: flex;
+
+}
+
+main section #box #audio i{
+    font-size: 1.4em;
+    cursor: pointer;
+}
+
+main section #btn-create{
+    width: 100%;
+    height: 40px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.8);
+    background-color: #94d3a1b8;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 1em;
+}
+
+main section #info{
+    font-size: .8em;
+}
+
+main section #info a{
+    color: rgba(34, 34, 249, 0.857);
+    text-decoration: none;
+}
+
+main section #info a:hover{
+    text-decoration: underline;
+}
+
+
+
+

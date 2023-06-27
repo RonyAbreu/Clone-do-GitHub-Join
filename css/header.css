@@ -1,0 +1,94 @@
+header{
+    width: 100%;
+    background-color: #24292f;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5em;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 3.5em;
+}
+
+header .bi-github{
+    font-size: 1.8em;
+    color: #fff;
+    cursor: pointer;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+header nav ul{
+    display: flex;
+    gap: .4em;
+    color: #fff;
+    cursor: pointer;
+    font-size: .9em;
+}
+
+header nav ul li i{
+    color: rgb(166, 164, 164);
+}
+
+header nav ul li:hover{
+    color: rgb(166, 164, 164);
+    transition: 0.3s ease-in-out;
+}
+
+header label{
+    display: flex;
+    align-items: center;
+}
+
+header label input{
+    width: 200px;
+    height: 35px;
+    background-color: #24292f;
+    border:  1px solid rgba(166, 164, 164, 0.501);
+    border-radius: 5px;
+    padding: 8px;
+    font-size: .8em;
+    color: #eee;
+}
+
+header label input:focus{
+    background-color: #fff;
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+header #quadrado-do-input{
+    width: 15px;
+    font-size: .6em;
+    text-align: center;
+    padding: 2px 4px;
+    border: 1px solid rgba(166, 164, 164, 0.501);
+    margin-left: -22px;
+    border-radius: 3px;
+    color: rgba(166, 164, 164, 0.501);
+}
+
+header label span{
+    color: #fff;
+    margin-right: 2.4em;
+    font-size: .9em;
+    cursor: pointer;
+}
+
+header label span:hover{
+    color: rgb(166, 164, 164);
+    transition: 0.3s ease-in-out;
+}
+
+header .bi-list{
+    color: #fff;
+    font-size: 1.8em;
+    display: none;
+}
+
+
